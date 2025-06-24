@@ -45,5 +45,5 @@ Potential Changes( to make prediction much better)
 
 - Try to train other models too( SVC,RandomForest,XGBoost,Naive-Bayes)
 - Perform hyperparameter tunning to get the optimumm parameter( GridsearchCV,RandomizedSerachedCV)
-- Try to user some other word-->vectorize techniques( bow,n-grams,word2vec)
+- Try to use some other word-->vectorize techniques( bow,n-grams,word2vec)
 
