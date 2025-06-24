@@ -3,13 +3,13 @@ Project Overview:
 This project demonstrates how natural language processing (NLP) and machine learning can be used to classify tweet sentiments. The Sentiment140 dataset contains 1.6 million tweets labeled as positive or negative. Using this data, we train a Logistic Regression classifier with TF-IDF features to predict sentiment from tweet text.
 
 Key Objectives:
-1.Develop a sentiment analysis model for social media data.
-2.Classify public sentiment as positive, negative.
+- Develop a sentiment analysis model for social media data.
+- Classify public sentiment as positive, negative.
 
 Key Task:
-1.Collect and preprocess the data ( consisting of 1.6 million entries).
-2.Perform text tokenization and sentiment labeling.
-3.Build a sentiment analysis model using natural language processing.
+- Collect and preprocess the data ( consisting of 1.6 million entries).
+- erform text tokenization and sentiment labeling.
+- Build a sentiment analysis model using natural language processing.
 
 📊 Dataset
 
