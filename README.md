@@ -1,1 +1,42 @@
-# -vaidsys-Twitter-sentiment-analysis
+# Vaidsys-Twitter-sentiment-analysis
+Project Overview:
+This project demonstrates how natural language processing (NLP) and machine learning can be used to classify tweet sentiments. The Sentiment140 dataset contains 1.6 million tweets labeled as positive or negative. Using this data, we train a Logistic Regression classifier with TF-IDF features to predict sentiment from tweet text.
+
+Key Objectives:
+1.Develop a sentiment analysis model for social media data.
+2.Classify public sentiment as positive, negative.
+
+Key Task:
+1.Collect and preprocess the data ( consisting of 1.6 million entries).
+2.Perform text tokenization and sentiment labeling.
+3.Build a sentiment analysis model using natural language processing.
+
+📊 Dataset
+
+- **Source**: [Sentiment140 on Kaggle](https://www.kaggle.com/datasets/kazanova/sentiment140)
+- **Total Tweets**: 1,600,000
+- **Classes**:
+  - '0': Negative
+  - '1': Positive
+- **Used Fields**:
+  - Sentiment label ('0' or '1')
+  - Tweet text
+
+Preprocessing
+Steps followed before feeding data into the model:
+- Remove Twitter handles ('@username')
+- Remove URLs
+- Lowercase the text
+- Remove special characters, digits, and punctuation
+- Tokenization (using 'nltk')
+- Stopword removal
+- Optional: Stemming using Porter Stemmer
+- TF-IDF vectorization to convert text into numerical form
+
+ Model Details
+
+- **Model**: Logistic Regression
+- **Feature Extraction**: 'TfidfVectorizer'
+- **Train/Test Split**: 80/20 with 'stratify=y' to preserve class balance
+- **Libraries Used**:  
+  'scikit-learn', 'nltk', 'pandas', 'numpy', 'matplotlib', 'seaborn', 'kaggle','tqdm'
