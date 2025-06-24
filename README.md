@@ -40,3 +40,10 @@ Steps followed before feeding data into the model:
 - **Train/Test Split**: 80/20 with 'stratify=y' to preserve class balance
 - **Libraries Used**:  
   'scikit-learn', 'nltk', 'pandas', 'numpy', 'matplotlib', 'seaborn', 'kaggle','tqdm'
+
+Potential Changes( to make prediction much better)
+
+- Try to train other models too( SVC,RandomForest,XGBoost,Naive-Bayes)
+- Perform hyperparameter tunning to get the optimumm parameter( GridsearchCV,RandomizedSerachedCV)
+- Try to user some other word-->vectorize techniques( bow,n-grams,word2vec)
+
